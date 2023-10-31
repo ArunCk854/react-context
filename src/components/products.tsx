@@ -70,9 +70,11 @@ export default function Products() {
   const [productItems, setProductItems] = useState(sampleData);
   const [cartItems, setCartItems] = useContext(CartContext);
   const { state } = useLocation();
+  useEffect(() => {
   if(state.cart && state.cart?.length > 0) {
     setCartItems(state.cart)
   }
+}, [state?.cart])
 
   function handleAddToCart(data: any) {
     data.buttonText === "Add to Cart"
