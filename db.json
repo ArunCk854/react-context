@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "key": 1,
+      "name": "GFG T-shirt",
+      "price": 499,
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230823165506/gfg1.png"
+    },
+    {
+      "id": 2,
+      "key": 2,
+      "name": "GFG Bag",
+      "price": 699,
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230823165553/gfg2.jpg"
+    },
+    {
+      "id": 3,
+      "key": 3,
+      "name": "GFG Hoodie",
+      "price": 799,
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230823165623/gfg3.jpg"
+    },
+    {
+      "id": 4,
+      "key": 4,
+      "name": "PUBG printed Graphic T-Shirt",
+      "price": 899,
+      "image": "https://i.dummyjson.com/data/products/54/thumbnail.jpg"
+    },
+    {
+      "id": 5,
+      "key": 5,
+      "name": "CFG Digital Watch",
+      "price": 1299,
+      "image": "https://i.dummyjson.com/data/products/68/thumbnail.webp"
+    },
+    {
+      "id": 7,
+      "key": 7,
+      "name": "FOGG Expressio Perfume",
+      "price": 898,
+      "image": "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+    },
+    {
+      "id": 8,
+      "key": 8,
+      "name": "Sparx X",
+      "price": 799,
+      "image": "https://i.dummyjson.com/data/products/59/thumbnail.jpg"
+    }
+  ]
+}
