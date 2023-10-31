@@ -16,7 +16,6 @@ export default function ProductCard({
   const [cartItems, setCartItems] = useContext(CartContext);
   useEffect(() => {
     const ItemIds = cartItems.map((x: any) => x.id);
-    console.log(ItemIds, product);
     if (ItemIds.includes(product.id)) {
       setButtonText("Remove");
       setButtonClass(styles.remove_button);
@@ -28,7 +27,6 @@ export default function ProductCard({
   let list: any[] = cartItems;
 
   function handleClick(product: any) {
-    console.log(product);
     if (buttonText === "Add to Cart") {
       setButtonText("Remove");
       setButtonClass(styles.remove_button);
@@ -42,13 +40,11 @@ export default function ProductCard({
 
   function addCart(product: any) {
     list.push(product);
-    console.log(list);
     setCartItems(list);
   }
 
   function removeCart(product: any) {
     list = list.filter((x) => x.id !== product.id);
-    console.log(list);
     setCartItems(list);
   }
 

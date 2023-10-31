@@ -14,16 +14,13 @@ import { useNavigate } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
   const handleButtonClick = (cartItems: any) => {
-    console.log(cartItems)
     navigate("/carts", { state: { cart: cartItems } });
   };
   const [cartItems, setCartItems] = useContext(CartContext);
   let totalItems = 0;
-  console.log(cartItems);
   if (cartItems !== undefined) {
     totalItems = cartItems.length;
   }
-  console.log(cartItems, totalItems);
 
   return (
     <div

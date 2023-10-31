@@ -9,8 +9,6 @@ const Carts = () => {
   const [cartItems, setCartItems] = useContext(CartContext);
   const { state } = useLocation();
   const navigate = useNavigate();
-  console.log(state);
-  console.log(cartItems);
   const [cartItem, setCartItem] = useState(state.cart);
 
   useEffect(() => {
