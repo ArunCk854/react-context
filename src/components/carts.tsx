@@ -59,8 +59,8 @@ const Carts = () => {
         >
           <thead style={{ background: "#ffffff" }}>
             <tr>
-              <th style={{ width: "40%" }}></th>
-              <th style={{ width: "30%" }}>Product</th>
+              <th style={{ width: "20%" }}></th>
+              <th style={{ width: "50%" }}>Product</th>
               <th style={{ width: "10%" }}>Price (₹)</th>
               <th style={{ width: "10%" }}>Actions</th>
             </tr>
@@ -71,7 +71,7 @@ const Carts = () => {
                 <tr key={item.id}>
                   <td>
                     <img
-                      style={{ width: "100px", height: "100px" }}
+                      style={{ width: "150px", height: "150px" }}
                       src={item.image}
                       alt={item.title}
                     />
