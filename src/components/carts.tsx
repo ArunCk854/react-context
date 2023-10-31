@@ -23,12 +23,12 @@ const Carts = () => {
     navigate("/", { state: { cart: cartItem } });
   };
   return (
-    <div style={{ margin: "auto", width: "100%" }}>
+    <div style={{ margin: "auto", width: "100%" , marginTop:'10px', marginRight:'10px'}}>
       <div
         style={{
           background: "#607D8B",
           marginLeft: "20px",
-          width: "100%",
+          width: "98%",
           height: "50px",
           display: "flex",
           flexDirection: "row",
@@ -44,7 +44,7 @@ const Carts = () => {
           </h2>
         </button>
         <h1 style={{ width: "100%", marginLeft: "40%", marginTop: "0px" }}>
-          Shopping Cart
+          Shopping Cart ({cartItem.length})
         </h1>
       </div>
       <div>
@@ -53,7 +53,7 @@ const Carts = () => {
             background: "#b9b9b9",
             marginTop: "20px",
             marginLeft: "20px",
-            width: "100%",
+            width: "98%",
             marginRight: "20px",
           }}
         >
