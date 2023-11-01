@@ -49,7 +49,7 @@ const Header = () => {
         <div
           style={{
             marginLeft: "29px",
-            marginTop: -"10px",
+            marginTop: "10px",
             borderRadius: "9px",
             background: "red",
             width: "20px",
